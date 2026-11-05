@@ -1,0 +1,4 @@
+# Uploaded files must never run as PHP
+php_flag engine off
+RemoveHandler .php .phtml .php3 .php5
+AddType text/plain .php .phtml
